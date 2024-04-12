@@ -45,14 +45,14 @@ const About = () => {
                 </div>
                 <div className='md:w-[50%] w-full h-fit relative'>
                     <img data-aos="zoom-in" data-aos-delay="200" src={aboutimg} alt="about image" width={600} height={600} />
-                    <div data-aos="slide-up" data-aos-delay="200" className='bg-red-500 md:w-[90%] w-full text-white flex flex-col justify-center items-start gap-4 md:p-8 p-6 absolute md:-left-[100px] md:right-[100px] md:bottom-[-180px] mt-8'>
+                    <div data-aos="slide-up" data-aos-delay="200" className='bg-red-500 md:w-[90%] w-full text-white flex flex-col justify-center items-start gap-4 md:p-8 p-6 absolute md:-left-[100px] md:right-[100px] md:bottom-[-180px] mt-8 z-10'>
                         <FaQuoteLeft className='md:size-14 size-10' />
                         <p className='md:text-3xl text-2xl'>The ability to help so many people reach their goals—it’s the most awesome experience I’ve ever had.</p>
                     </div>
                 </div>
             </section>
 
-            <section data-aos="zoom-in" data-aos-delay="200" id='banner' className='w-full md:h-[600px] h-[300px] flex justify-end items-end p-10 mt-24 bg-cover bg-center' style={{ backgroundImage: `url(${banner})` }}>
+            <section data-aos="zoom-in" data-aos-delay="200" id='banner' className='w-full md:h-[600px] h-[300px] flex justify-end items-end p-10 md:mt-24 bg-cover bg-center mt-[400px]' style={{ backgroundImage: `url(${banner})` }}>
                 <h1 data-aos="slide-up" data-aos-delay="400" className='md:text-[150px] text-[50px] text-white font-bold'>MOVE!</h1>
             </section>
         </>
